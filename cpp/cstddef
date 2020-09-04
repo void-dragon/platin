@@ -1,0 +1,20 @@
+/**
+ * cstddef
+ *
+ * This file is a stub for the original one.
+ *
+ * @since 31.03.2011
+ * @author Arne Simon => email::[arne_simon@gmx.de]
+ */
+
+#ifndef CSTDDEF_
+#define CSTDDEF_
+
+namespace std {
+  typedef int ptrdiff_t;
+  typedef int size_t;
+}
+
+#define NULL 0
+
+#endif /* CSTDDEF_ */
